@@ -24,19 +24,19 @@ An intelligent, web-based compiler for matrix multiplication using a custom Proc
 
     Compiler_Hackathon/
     
-    ├── server.py                       # Flask web server (backend)
+    ├── server.py                     # Flask web server (backend)
     ├──templates/
-      │        └── index.html           # Interactive frontend (with Chart.js + Prism.js)
+    │        └── index.html           # Interactive frontend (with Chart.js + Prism.js)
     ├── ir/
-      │   └── llvm_ir_gen.py            # LLVM IR builder (llvmlite)
+    │   └── llvm_ir_gen.py            # LLVM IR builder (llvmlite)
     ├── backend/
-      │   ├── isa_encoder.py            # IR → custom ISA encoder
-      │   ├── memory_map.py             # Physical memory allocator
-      │   ├── optimizer_ai.py           # Heuristic AI suggestions
-      │   ├── energy_predictor.py       # XGBoost-based energy predictor
-      │   └── graph_data.py             # Instruction statistics for visualization
+    │   ├── isa_encoder.py            # IR → custom ISA encoder
+    │   ├── memory_map.py             # Physical memory allocator
+    │   ├── optimizer_ai.py           # Heuristic AI suggestions
+    │   ├── energy_predictor.py       # XGBoost-based energy predictor
+    │   └── graph_data.py             # Instruction statistics for visualization
     ├── model/
-           └── energy_model_advanced.pkl # Pretrained energy prediction model
+        └── energy_model_advanced.pkl # Pretrained energy prediction model
 
 
 🔧 Setup & Run
